@@ -74,6 +74,50 @@ main .full{
 main .full i{
     font-size: 14px;
 }
+
+main .content-main{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+main .content-left{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .content-left i{
+    font-size: 60px;
+    color: #7f7f7f;
+}
+
+main .content-centrale{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .content-centrale img{
+    width: 19%;
+    height: 14vh;
+    margin: 4px;
+}
+
+
+main .content-right{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .content-right i{
+    font-size: 60px;
+    color: #2ebaff;
+}
+
 /* footer */
 
 footer{
