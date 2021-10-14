@@ -5,3 +5,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+
+header{
+    height: 30px;
+}
+
+/* main */
+
+main{
+    height: calc(100vh - 100px);
+}
+
+/* footer */
+
+footer{
+    height: 70px;
+}
+
+/* debug */
+
+.debug header{
+    background-color: green;
+}
+
+.debug main{
+    background-color: red;
+}
+
+.debug footer{
+    background-color: blue;
+}
